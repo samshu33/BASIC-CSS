@@ -1,0 +1,97 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(7, 138, 88); 
+    }
+    
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .container .box{
+       position: relative;
+       width: 300px;
+       height: 200px;
+       margin: 40px 0;
+       background: white;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 2.5em;
+       display: flex;
+       color: black;
+       align-items: center;
+       justify-content: center;
+    }
+    .container .box.shaddow1{
+       box-shadow: -30px 30px 20px rgba(15, 13, 13, 0.744);
+    }
+    .container .box.shaddow2:before{
+       content: '';
+       position: absolute;
+       bottom: 10px;
+       left: 10px;
+       width: 90%;
+       height: 50px;
+       background-color: black;
+       transform-origin: left;
+       transform: skewY(6deg);
+       z-index: -1;
+       filter: blur(5px);
+     }
+     .container .box.shaddow3:before{
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+        height: 30px;
+        background-color: black;
+        transform-origin: right;
+        transform: skewY(-9deg);
+        z-index: -1;
+        filter: blur(10px);
+      }
+      .container .box.shaddow4:before{
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        left: 5%;
+        width: 90%;
+        height: 20px;
+        background-color: black;
+        z-index: -1;
+        border-radius: 50%;
+        filter: blur(3px);
+        
+      }
+      .container .box.shaddow5:before{
+        content: '';
+        position: absolute;
+        bottom: -15%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        background-color: black;
+        z-index: -1;
+        filter: blur(10px);
+      }
+      .container .box.shaddow6{
+        background: #118260;
+        border-radius: 15px;
+        box-shadow: -15px -15px 15px rgba(108, 2, 2, 0.2),
+                      15px  15px 15px pink;
+      }
+      .container .box.shaddow7{
+        background: #118260;
+        border-radius: 15px;
+        box-shadow: -15px -15px 15px rgba(108, 2, 2, 0.2),
+                      15px  15px 15px (pink),
+                     inset -5px -5px 5px rgba(108, 2, 2, 0.2),
+                     inset 15px  5px 5px pink;
+      }

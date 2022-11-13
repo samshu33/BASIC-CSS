@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"Sam";
+    src: url("fonts/Salt\ Debris.otf");
+}
+h1{
+    color: rgb(12, 81, 178);
+    font-size: 35px;
+    font-variant: small-caps;
+    text-align: start;
+    font-family:"Sam";
+}
+p{
+    text-align: end;
+    font-size: 25px;
+}

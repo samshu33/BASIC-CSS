@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-image:url(image/IMG-20220819-WA0040.jpg);
+    height: 800px;
+    width: 900px;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    text-decoration: dotted;
+}
