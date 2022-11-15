@@ -1,0 +1,12 @@
+h1{
+    height: 500px;
+    width: 500px;
+    background-image: url(image/IMG-20220819-WA0040.jpg);
+    overflow: scroll;
+    background-size:cover;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+   text-shadow: -3px -1px 3px rgb(184, 31, 7);
+    border: 15px groove rgb(185, 6, 36);
+}
