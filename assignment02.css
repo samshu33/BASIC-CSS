@@ -1,0 +1,113 @@
+main{
+    height: 700px;
+    width: 650px;
+    background-color: brown;
+    position: absolute;
+    left: 520px;
+    top: 20px;
+    border-radius: 40px;
+
+}
+.A{
+    height: 50px;
+    border-bottom: 4px solid white;
+    width: 100%; 
+}
+
+.B{
+    height: 600px;
+    background-color: yellow;
+    border-bottom: 4px solid white;
+    width: 100%;  
+}
+.one{
+    position:relative ;
+    top: 25px;
+    left: 10px;
+    background-image: url(image/1.jpeg);
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    background-size: 200px  175px;
+    float: left;
+  
+}
+.two{
+    background-image: url(image/2.jpeg);
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    background-size: 200px  175px;
+    background-repeat: no-repeat;
+    float: left;
+    position:relative ;
+    top: 25px;
+    left: 20px;
+}
+.three{
+   
+    background-image: url(image/5.jpeg) ;
+    height: 550px;
+    width: 261px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    background-position-x: center;
+    position:relative ;
+    top: 25px;
+    right: 10px;
+}
+.four{
+    background-image: url(image/3.jpeg);
+    height: 175px;
+    width: 175px;
+    float: left;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    background-size: 200px  175px;
+}
+.five{
+    background-image:url(image/4.jpeg) ;
+    height: 175px;
+    width: 175px;
+    float: left;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    background-size: 200px  175px;
+}
+.six{
+    background-image: url(image/6.jpeg);
+     height: 180px;
+    width: 175px;
+    float: left;
+    position: relative;
+    top: 45px;
+    left: 10px;
+    background-size: 200px  175px;
+}
+.seven{
+    background-image: url(image/7.jpeg);
+    height: 180px;
+    width: 175px;
+    float: left;
+    position: relative;
+    top: 45px;
+    left: 20px;
+    background-size: 200px  180px;
+    background-repeat: no-repeat;
+}
+.C{
+    height:50px;
+    width: 100%; 
+    text-align: center;
+    font-family:cursive;
+    line-height: 35px;
+
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+}
