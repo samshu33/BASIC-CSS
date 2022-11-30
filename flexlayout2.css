@@ -14,10 +14,56 @@ main{
 header{
     flex-grow: 3;
     border-bottom: 15px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     
 
 }
+.A{
+    flex-grow: 1;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    border: 1px double black;
+   
+}
+.A1{
+    flex-grow: 1;
+    background-color: wheat;
+}
+.A2{
+ flex-grow: 1;
+}
+.A3{
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+.A4{
+   flex-grow: 1;
+   background-color: azure;
+}
 
+.B{
+    flex-grow: 1;
+    background-color: beige;
+}
+.C{
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+.D{
+    flex-grow: 1;
+    background-color: aqua;
+}
+.E{
+    flex-grow: 1;
+    background-color: antiquewhite;
+}
+.F{
+    flex-grow: 1;
+    background-color: aliceblue;
+}
 header h2{
     position: relative;
     top: 80px;
